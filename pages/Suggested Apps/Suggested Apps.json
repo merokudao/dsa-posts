@@ -28,11 +28,24 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Suggested Apps_PageLoad.setAPIUrlOnPageLoad",
+              "name": "PageLoad.setAPIUrlOnPageLoad",
+              "collectionId": "Suggested Apps_PageLoad",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  const prodUrl = \"https://api.dappstore.app/\";\n  const testApiUrl = \"https://test-api.dappstore.app/\";\n  const apiUrl = testApiUrl;\n  appsmith.store(\"apiUrl\", apiUrl);\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Suggested Apps_get_latest_posts",
               "name": "get_latest_posts",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.apiUrl"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

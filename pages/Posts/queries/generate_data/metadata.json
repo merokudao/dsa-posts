@@ -8,7 +8,7 @@
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
         "sshProxyEnabled": false,
-        "url": "https://api.dappstore.app"
+        "url": ""
       },
       "invalids": [],
       "messages": [],
@@ -21,7 +21,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 100000,
       "paginationType": "NONE",
-      "path": "/generate_content_meta/article",
+      "path": "{{appsmith.store.apiUrl}}generate_content_meta/article",
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
@@ -67,7 +67,8 @@
     ],
     "messages": [],
     "jsonPathKeys": [
-      "\n// {\"article_text\": PostDetails.formData.article}\n{\"article_text\": article.text}\n"
+      "\n// {\"article_text\": PostDetails.formData.article}\n{\"article_text\": article.text}\n",
+      "appsmith.store.apiUrl"
     ],
     "userSetOnLoad": true,
     "confirmBeforeExecute": false,

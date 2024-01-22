@@ -8,7 +8,7 @@
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
         "sshProxyEnabled": false,
-        "url": "https://api.meroku.store"
+        "url": ""
       },
       "invalids": [],
       "messages": [],
@@ -21,7 +21,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/api/v1/dapp/search/{{search_app_input.text}}",
+      "path": "{{appsmith.store.apiUrl}}api/v1/dapp/search/{{search_app_input.text}}",
       "headers": [
         {
           "key": "Accept",
@@ -54,6 +54,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "appsmith.store.apiUrl",
       "search_app_input.text"
     ],
     "userSetOnLoad": false,
