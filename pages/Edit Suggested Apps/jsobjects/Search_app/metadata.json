@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Search_app",
+    "pageId": "Edit Suggested Apps",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Edit Suggested Apps_Search_app",
+  "deleted": false,
+  "gitSyncId": "657b5d40a682350395c3801b_6583319be1a0ff168f759f56"
+}

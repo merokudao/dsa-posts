@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "PageLoad",
+    "pageId": "Edit Suggested Apps",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Edit Suggested Apps_PageLoad",
+  "deleted": false,
+  "gitSyncId": "657b5d40a682350395c3801b_6596fd4f1a5432609e59ae0c"
+}

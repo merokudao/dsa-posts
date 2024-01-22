@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "PostsHandler",
+    "pageId": "Posts",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Posts_PostsHandler",
+  "deleted": false,
+  "gitSyncId": "657b5d40a682350395c3801b_65803a839214b559bff82a25"
+}

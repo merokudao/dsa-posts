@@ -1,0 +1,65 @@
+{
+    "boxShadow": "none",
+    "mobileBottomRow": 56,
+    "widgetName": "content_type",
+    "displayName": "Radio Group",
+    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.99c101b3b70073f9c00e9af6523f9427.svg",
+    "searchTags": ["choice"],
+    "topRow": 53,
+    "bottomRow": 59,
+    "parentRowSpace": 10,
+    "labelWidth": 5,
+    "type": "RADIO_GROUP_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 21,
+    "defaultOptionValue": "{{appsmith.store?.postDetails?.content_type ?? \"alpha\"}}",
+    "animateLoading": true,
+    "parentColumnSpace": 17.7783203125,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 1,
+    "dynamicBindingPathList": [
+        {"key": "accentColor"},
+        {"key": "defaultOptionValue"}
+    ],
+    "labelPosition": "Top",
+    "options": [
+        {
+            "label": "Article",
+            "value": "article"
+        },
+        {
+            "label": "Twitter",
+            "value": "twitter"
+        },
+        {
+            "label": "Alpha",
+            "value": "alpha"
+        }
+    ],
+    "isDisabled": false,
+    "flexVerticalAlignment": "start",
+    "key": "46es2xavwx",
+    "labelTextSize": "0.875rem",
+    "isRequired": false,
+    "isDeprecated": false,
+    "rightColumn": 63,
+    "dynamicHeight": "AUTO_HEIGHT",
+    "widgetId": "dxa5szdxhf",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "label": "Content Type",
+    "version": 1,
+    "parentId": "mr2muuzp06",
+    "tags": ["Toggles"],
+    "labelAlignment": "left",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 50,
+    "originalTopRow": 53,
+    "mobileLeftColumn": 1,
+    "maxDynamicHeight": 9000,
+    "originalBottomRow": 59,
+    "isInline": true,
+    "alignment": "left",
+    "minDynamicHeight": 4
+}

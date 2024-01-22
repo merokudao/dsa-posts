@@ -1,0 +1,4 @@
+{{
+// {"article_text": PostDetails.formData.article}
+{"article_text": article.text}
+}}

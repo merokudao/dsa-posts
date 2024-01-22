@@ -1,0 +1,42 @@
+{
+  "pages": [
+    {
+      "id": "Suggested Apps",
+      "isDefault": false
+    },
+    {
+      "id": "Posts",
+      "isDefault": true
+    },
+    {
+      "id": "Edit Suggested Apps",
+      "isDefault": false
+    },
+    {
+      "id": "Post Go Live",
+      "isDefault": false
+    },
+    {
+      "id": "Image Post",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "clonedFromApplicationId": "657b5d40a682350395c3801b",
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    }
+  },
+  "color": "#ECECEC",
+  "icon": "yen",
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}

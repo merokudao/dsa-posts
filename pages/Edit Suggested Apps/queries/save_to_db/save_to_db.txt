@@ -1,0 +1,8 @@
+{{
+{
+	"uuid": get_post_details.data.uuid,
+	"suggested_app_1": suggested_app_1.value,
+	"suggested_app_2": suggested_app_2.value,
+	"suggested_app_3": suggested_app_3.value
+}
+}}

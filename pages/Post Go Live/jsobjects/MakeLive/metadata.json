@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "MakeLive",
+    "pageId": "Post Go Live",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Post Go Live_MakeLive",
+  "deleted": false,
+  "gitSyncId": "657b5d40a682350395c3801b_6596dbc01a5432609e59ad3c"
+}

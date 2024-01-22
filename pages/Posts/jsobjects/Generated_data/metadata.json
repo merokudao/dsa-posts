@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "Generated_data",
+    "pageId": "Posts",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Posts_Generated_data",
+  "deleted": false,
+  "gitSyncId": "657b5d40a682350395c3801b_6582360b66c423418209b7d6"
+}

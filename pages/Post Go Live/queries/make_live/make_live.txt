@@ -1,0 +1,3 @@
+{{
+{"uuid": get_post_details.data.uuid}
+}}
