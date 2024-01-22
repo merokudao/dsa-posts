@@ -35,7 +35,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "function () {\n  clearStore();\n  storeValue(\"save_to_db_flag\", false);\n}"
+                "function () {\n  clearStore();\n  storeValue(\"save_to_db_flag\", false);\n  const prodUrl = \"https://api.dappstore.app/\";\n  const testUrl = \"https://test-api.dappstore.app/\";\n  storeValue(\"apiMode\", false);\n  storeValue(\"prodUrl\", prodUrl);\n  storeValue(\"testUrl\", testUrl);\n  console.log(\"page load worked\");\n}"
               ],
               "timeoutInMillisecond": 10000
             }
