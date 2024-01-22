@@ -1,10 +1,8 @@
 export default {
-	setAPIUrlOnPageLoad(){
+	pageLoad () {
 		const prodUrl = "https://api.dappstore.app/";
-		const testApiUrl = "https://test-api.dappstore.app/";
-
-		const apiUrl = testApiUrl;
-
-		appsmith.store("apiUrl",apiUrl);
-	}
+		const testUrl = "https://test-api.dappstore.app/";
+		storeValue("prodUrl", prodUrl)
+		storeValue("testUrl", testUrl);
+	},
 }

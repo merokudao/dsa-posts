@@ -21,7 +21,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "{{appsmith.store.apiMode ? store.prodUrl : store.testUrl}}api/v1/dapp/search/{{search_app_input.text}}",
+      "path": "{{appsmith.store.apiMode ? appsmith.store.prodUrl : appsmith.store.testUrl}}api/v1/dapp/search/{{search_app_input.text}}",
       "headers": [
         {
           "key": "Accept",
@@ -54,7 +54,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.store.apiMode ? store.prodUrl : store.testUrl",
+      "appsmith.store.apiMode ? appsmith.store.prodUrl : appsmith.store.testUrl",
       "search_app_input.text"
     ],
     "userSetOnLoad": false,

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 800,
+          "bottomRow": 870,
           "containerStyle": "none",
           "snapRows": 80,
           "parentRowSpace": 1,
@@ -33,7 +33,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.URL.queryParams.id"
+                "appsmith.URL.queryParams.id",
+                "appsmith.store.apiMode ? appsmith.store.prodUrl : appsmith.store.testUrl"
               ],
               "timeoutInMillisecond": 10000
             }
