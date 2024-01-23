@@ -6,19 +6,10 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "variables": [
-      {
-        "name": "myVar1",
-        "value": "[]"
-      },
-      {
-        "name": "myVar2",
-        "value": "{}"
-      }
-    ],
+    "variables": [],
     "userPermissions": []
   },
   "id": "Edit Suggested Apps_PageLoad",
   "deleted": false,
-  "gitSyncId": "657b5d40a682350395c3801b_6596fd4f1a5432609e59ae0c"
+  "gitSyncId": "65ae4d5877daa66efb5352f1_65ae5b268b0dab0f3bb7e8a2"
 }

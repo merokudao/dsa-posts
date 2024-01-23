@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "PageLoad",
+    "pageId": "Image Post",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Image Post_PageLoad",
+  "deleted": false,
+  "gitSyncId": "65ae4d5877daa66efb5352f1_65ae5b508b0dab0f3bb7e8ac"
+}

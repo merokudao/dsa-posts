@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 770,
+          "bottomRow": 840,
           "containerStyle": "none",
           "snapRows": 67,
           "parentRowSpace": 1,
@@ -28,11 +28,26 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Suggested Apps_PageLoad.pageLoad",
+              "name": "PageLoad.pageLoad",
+              "collectionId": "Suggested Apps_PageLoad",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  const prodUrl = \"https://api.dappstore.app/\";\n  const testUrl = \"https://test-api.dappstore.app/\";\n  storeValue(\"prodUrl\", prodUrl);\n  storeValue(\"testUrl\", testUrl);\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Suggested Apps_get_latest_posts",
               "name": "get_latest_posts",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.apiMode ? appsmith.store.prodUrl : appsmith.store.testUrl"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

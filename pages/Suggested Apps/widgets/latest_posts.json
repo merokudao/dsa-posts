@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 0,
+    "topRow": 7,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -15,7 +15,6 @@
         {"key": "tableData"},
         {"key": "primaryColumns.uuid.computedValue"},
         {"key": "primaryColumns.created_at.computedValue"},
-        {"key": "primaryColumns.image_url.computedValue"},
         {"key": "primaryColumns.external_url.computedValue"},
         {"key": "primaryColumns.interest_categories.computedValue"},
         {"key": "primaryColumns.title.computedValue"},
@@ -39,10 +38,11 @@
         {"key": "primaryColumns.customColumn1.boxShadow"},
         {"key": "primaryColumns.customColumn2.buttonColor"},
         {"key": "primaryColumns.customColumn2.borderRadius"},
-        {"key": "primaryColumns.customColumn2.boxShadow"}
+        {"key": "primaryColumns.customColumn2.boxShadow"},
+        {"key": "primaryColumns.image_url.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 0,
+    "leftColumn": 1,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -81,7 +81,8 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1704369004155,
+    "columnUpdatedAt": 1705994006938,
+    "originalBottomRow": 85,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 95,
     "widgetName": "latest_posts",
@@ -91,7 +92,6 @@
         "created_at",
         "customColumn1",
         "customColumn2",
-        "image_url",
         "external_url",
         "interest_categories",
         "title",
@@ -109,14 +109,15 @@
         "post_type",
         "notification",
         "content_type",
-        "live_at"
+        "live_at",
+        "image_url"
     ],
     "dynamicPropertyPathList": [
         {"key": "primaryColumns.customColumn1.onClick"},
         {"key": "primaryColumns.customColumn2.onClick"}
     ],
     "displayName": "Table",
-    "bottomRow": 77,
+    "bottomRow": 84,
     "columnWidthMap": {
         "created_at": 150,
         "uuid": 89
@@ -212,6 +213,8 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "image_url",
+            "fontStyle": "",
+            "textColor": "",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -222,6 +225,7 @@
             "sticky": "",
             "originalId": "image_url",
             "currencyCode": "USD",
+            "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
         "created_at": {
@@ -865,7 +869,7 @@
     "key": "coqvr1m3ok",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 60,
+    "rightColumn": 61,
     "textSize": "0.875rem",
     "widgetId": "qjoz7yb04s",
     "minWidth": 450,
@@ -878,6 +882,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
+    "originalTopRow": 8,
     "mobileLeftColumn": 3,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"

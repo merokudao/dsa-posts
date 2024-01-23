@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1020,
+          "bottomRow": 1080,
           "containerStyle": "none",
           "snapRows": 80,
           "parentRowSpace": 1,
@@ -28,23 +28,13 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Edit Suggested Apps_PageLoad.pageLoad",
-              "name": "PageLoad.pageLoad",
-              "collectionId": "Edit Suggested Apps_PageLoad",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "function () {\n  clearStore();\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Edit Suggested Apps_get_post_details",
               "name": "get_post_details",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.URL.queryParams.id"
+                "appsmith.URL.queryParams.id",
+                "appsmith.store.apiMode ? appsmith.store.prodUrl : appsmith.store.testUrl"
               ],
               "timeoutInMillisecond": 10000
             }
