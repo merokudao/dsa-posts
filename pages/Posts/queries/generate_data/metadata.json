@@ -21,7 +21,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 100000,
       "paginationType": "NONE",
-      "path": "{{appsmith.store.apiMode ? store.prodUrl : store.testUrl}}generate_content_meta/article",
+      "path": "{{appsmith.store.apiMode ? appsmith.store.prodUrl : appsmith.store.testUrl}}generate_content_meta/article",
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
@@ -71,7 +71,7 @@
     "messages": [],
     "jsonPathKeys": [
       "\n// {\"article_text\": PostDetails.formData.article}\n{\"article_text\": article.text}\n",
-      "appsmith.store.apiMode ? store.prodUrl : store.testUrl"
+      "appsmith.store.apiMode ? appsmith.store.prodUrl : appsmith.store.testUrl"
     ],
     "userSetOnLoad": true,
     "confirmBeforeExecute": false,
