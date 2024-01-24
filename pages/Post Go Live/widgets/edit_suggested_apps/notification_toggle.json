@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 71,
     "widgetName": "notification_toggle",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "isDisabled"}],
     "displayName": "Switch",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.afbd826fee9d09b12c5cde30a8c6fe62.svg",
     "searchTags": ["boolean"],
@@ -17,9 +17,12 @@
     "parentColumnSpace": 10.419921875,
     "dynamicTriggerPathList": [],
     "leftColumn": 2,
-    "dynamicBindingPathList": [{"key": "accentColor"}],
+    "dynamicBindingPathList": [
+        {"key": "accentColor"},
+        {"key": "isDisabled"}
+    ],
     "labelPosition": "Left",
-    "isDisabled": false,
+    "isDisabled": "{{get_post_details.data.notification ? false : true}}",
     "key": "zicpmohciu",
     "isDeprecated": false,
     "rightColumn": 63,
