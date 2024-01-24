@@ -19,7 +19,7 @@
     },
     "pageId": "Post Go Live",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 100000,
       "paginationType": "NONE",
       "path": "{{appsmith.store.apiMode ? appsmith.store.prodUrl : appsmith.store.testUrl}}generate_content_meta/saveToRecombee",
       "headers": [],
@@ -63,7 +63,9 @@
       }
     ],
     "isValid": true,
-    "invalids": [],
+    "invalids": [
+      "'Query timeout' field must be an integer between 0 and 60000"
+    ],
     "messages": [],
     "jsonPathKeys": [
       "\n{\"uuid\": get_post_details.data.uuid}\n",

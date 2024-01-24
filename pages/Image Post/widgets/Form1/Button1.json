@@ -1,8 +1,9 @@
 {
-    "resetFormOnClick": true,
+    "resetFormOnClick": false,
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button1",
+    "onClick": "{{save_image_post.run().then(() => {\n  showAlert('Successfully added image post', 'success');\n  resetWidget(\"Form1\", true);\n}).catch(() => {\n  showAlert(save_image_post.data.message ?? \"Try again\", 'error');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -16,6 +17,7 @@
     "hideCard": false,
     "mobileRightColumn": 62,
     "animateLoading": true,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 48,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},

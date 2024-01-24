@@ -50,7 +50,7 @@
     "rightColumn": 63,
     "widgetId": "gn3jkyktck",
     "minWidth": 450,
-    "label": "Image URL",
+    "label": "Background Image URL",
     "parentId": "mr2muuzp06",
     "labelAlignment": "left",
     "renderMode": "CANVAS",

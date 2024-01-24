@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 840,
+          "bottomRow": 850,
           "containerStyle": "none",
           "snapRows": 67,
           "parentRowSpace": 1,
@@ -37,9 +37,7 @@
                 "function () {\n  const prodUrl = \"https://api.dappstore.app/\";\n  const testUrl = \"https://test-api.dappstore.app/\";\n  storeValue(\"prodUrl\", prodUrl);\n  storeValue(\"testUrl\", testUrl);\n}"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": "Suggested Apps_get_latest_posts",
               "name": "get_latest_posts",
