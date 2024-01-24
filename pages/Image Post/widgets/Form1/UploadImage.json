@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "mobileBottomRow": 29,
-    "widgetName": "FilePicker1",
+    "widgetName": "UploadImage",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.715769b31db833b32f40d9c90ec02de3.svg",
@@ -11,7 +11,11 @@
     "bottomRow": 43,
     "parentRowSpace": 10,
     "type": "FILE_PICKER_WIDGET_V2",
-    "allowedFileTypes": ["image/*"],
+    "allowedFileTypes": [
+        "image/*",
+        "image/jpeg",
+        ".png"
+    ],
     "hideCard": false,
     "mobileRightColumn": 18,
     "animateLoading": true,

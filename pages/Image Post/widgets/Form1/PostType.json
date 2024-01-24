@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "mobileBottomRow": 48,
-    "widgetName": "RadioGroup1",
+    "widgetName": "PostType",
     "displayName": "Radio Group",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.99c101b3b70073f9c00e9af6523f9427.svg",
     "searchTags": ["choice"],
@@ -26,7 +26,7 @@
         },
         {
             "label": "Full Screen Image",
-            "value": "full-screen"
+            "value": "full-screen-image"
         }
     ],
     "isDisabled": false,

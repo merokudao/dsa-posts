@@ -5,12 +5,13 @@
 	"summary": GeneratedData.formData.summary,
 	"eli5_explanation": GeneratedData.formData.eli5,
 	"notification": {
-		"title": GeneratedData.formData.notificationHeading,
-		"body": GeneratedData.formData.notificationBody
+		"heading": GeneratedData.formData.notificationHeading,
+		"text": GeneratedData.formData.notificationBody
 	},
 	"external_url": appsmith.store.postDetails.url,
 	"image_url": appsmith.store.postDetails.image_url,
 	"interest_categories": [appsmith.store.postDetails.category],
-	"content_type": appsmith.store.postDetails.content_type
+	"content_type": appsmith.store.postDetails.content_type,
+	// "image"
 }
 }}
