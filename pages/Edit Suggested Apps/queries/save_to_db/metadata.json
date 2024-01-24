@@ -45,12 +45,12 @@
         },
         {
           "key": "suggested_app_2",
-          "value": "{{suggested_app_1.value}}",
+          "value": "{{suggested_app_2.value}}",
           "type": "Text"
         },
         {
           "key": "suggested_app_3",
-          "value": "{{suggested_app_1.value}}",
+          "value": "{{suggested_app_3.value}}",
           "type": "Text"
         },
         {
@@ -100,7 +100,9 @@
       "get_post_details.data.post_type",
       "get_post_details.data.post_type === \"text\" ? \"saveTextPost\":\"saveImagePost\"",
       "get_post_details.data.uuid",
-      "suggested_app_1.value"
+      "suggested_app_1.value",
+      "suggested_app_2.value",
+      "suggested_app_3.value"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

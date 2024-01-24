@@ -37,9 +37,7 @@
                 "function () {\n  const prodUrl = \"https://api.dappstore.app/\";\n  const testUrl = \"https://test-api.dappstore.app/\";\n  storeValue(\"prodUrl\", prodUrl);\n  storeValue(\"testUrl\", testUrl);\n}"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": "Suggested Apps_get_latest_posts",
               "name": "get_latest_posts",
