@@ -61,6 +61,6 @@
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "{{get_post_details.data.notification.title}}",
+    "defaultText": "{{get_post_details.data.notification.heading ?? \"\"}}",
     "minDynamicHeight": 4
 }

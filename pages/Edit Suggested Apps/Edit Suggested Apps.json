@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1080,
+          "bottomRow": 1090,
           "containerStyle": "none",
           "snapRows": 80,
           "parentRowSpace": 1,
@@ -27,6 +27,17 @@
         },
         "layoutOnLoadActions": [
           [
+            {
+              "id": "Edit Suggested Apps_PageLoad.pageLoad",
+              "name": "PageLoad.pageLoad",
+              "collectionId": "Edit Suggested Apps_PageLoad",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  const prodUrl = \"https://api.dappstore.app/\";\n  const testUrl = \"https://test-api.dappstore.app/\";\n  const apiMode = appsmith.store.apiMode ?? false;\n  clearStore();\n  storeValue(\"apiMode\", apiMode);\n  storeValue(\"prodUrl\", prodUrl);\n  storeValue(\"testUrl\", testUrl);\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "Edit Suggested Apps_get_post_details",
               "name": "get_post_details",

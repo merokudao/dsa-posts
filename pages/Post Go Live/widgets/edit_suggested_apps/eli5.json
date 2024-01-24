@@ -61,6 +61,6 @@
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "{{get_post_details.data.eli5_explanation}}",
+    "defaultText": "{{get_post_details.data.eli5_explanation || \"\"}}",
     "minDynamicHeight": 4
 }

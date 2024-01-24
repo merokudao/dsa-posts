@@ -55,7 +55,7 @@
         },
         {
           "key": "notification",
-          "value": "{'heading': \"{{NotificationHeading.text}}\", \"text\": \"{{NotificationBody.text}}\"}",
+          "value": "{{NotificationHeading.text && NotificationBody.text ? {\"heading\": NotificationHeading.text, \"text\": NotificationBody.text} : \"\"}}",
           "type": "JSON"
         }
       ],
@@ -97,8 +97,7 @@
     "messages": [],
     "jsonPathKeys": [
       "ELI5.text",
-      "NotificationBody.text",
-      "NotificationHeading.text",
+      "NotificationHeading.text && NotificationBody.text ? {\"heading\": NotificationHeading.text, \"text\": NotificationBody.text} : \"\"",
       "PostType.selectedOptionValue",
       "Title.text",
       "UploadImage.files.length > 0 ? UploadImage.files[0].data : null",
