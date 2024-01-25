@@ -25,7 +25,7 @@
     "isDisabled": false,
     "key": "h1bx0kfrph",
     "onFilesSelected": "{{}}",
-    "isRequired": false,
+    "isRequired": true,
     "isDeprecated": false,
     "rightColumn": 18,
     "isDefaultClickDisabled": true,
