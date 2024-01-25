@@ -197,7 +197,7 @@
             "verticalAlignment": "CENTER"
         },
         "created_at": {
-            "computedValue": "{{latest_posts.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"created_at\"]))}}",
+            "computedValue": "{{latest_posts.processedTableData.map((currentRow, currentIndex) => ( new Date(currentRow[\"created_at\"]).toLocaleString(\"en-US\", {year:\"numeric\", month:\"long\", day:\"numeric\", hour:\"numeric\", minute:\"numeric\", second:\"numeric\", timeZoneName:\"short\"})\n))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "created_at",
